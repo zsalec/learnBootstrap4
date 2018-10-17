@@ -1,0 +1,25 @@
+.container-fluid.demo {
+  background: #054bd1;
+  height: 100vh;
+  color: white;
+  -webkit-font-smoothings: antialiased;
+}
+
+.container-fluid.demo .row {
+  background: #021d51;
+  backer-bottom: 1px solid $000;
+  height: 50vh;
+}
+
+.container-fluid.demo .row > div > span {
+  display: block;
+  background: #487bdd;
+  color: white;
+  font-size: 32px;
+  padding: 8px;
+  border: 1px solid #0211d51;
+}
+
+.component.demo {
+  padding: 50px;
+}
