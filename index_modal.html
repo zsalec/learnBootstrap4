@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hello Bootstrap</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/style.css" charset="utf-8">
+	<script src="/js/jquery.slim.min.js"></script>
+	<script src="/js/popper.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/script.js" charset="utf-8"></script>
+</head>
+<body>
+	<div class="component demo">
+		<div class="modal fade show" id="modal-demo">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Modal</h5>
+						<button class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<p>hello ~</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+						<button class="btn btn-primary">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="btn btn-danger" data-toggle="modal" data-target="#modal-demo">delete</button>
+	</div>
+</body>
+</html>

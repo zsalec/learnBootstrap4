@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hello Bootstrap</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/style.css" charset="utf-8">
+	<script src="/js/jquery.slim.min.js"></script>
+	<script src="/js/popper.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/script.js" charset="utf-8"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div id="accordion">
+			<div class="card">
+				<div class="card-header">
+					<a href="#collapse-1" data-toggle="collapse">title</a>
+				</div>
+				<div class="collapse show" id="collapse-1" data-parent="#accordion">
+					<div class="card-body">hello ~</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<a href="#collapse-2" data-toggle="collapse">title</a>
+				</div>
+				<div class="collapse" id="collapse-2" data-parent="#accordion">
+					<div class="card-body">hello ~</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
